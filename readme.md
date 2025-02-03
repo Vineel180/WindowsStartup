@@ -1,2 +1,1 @@
-# ToDo:
-0. None
+This is the slower, but more easily customizable variant of Windows-Startup-Apps.

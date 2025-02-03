@@ -4,7 +4,7 @@ from webbrowser import open as openSite
 
 def openTerminalS(List):
     for i in List:
-        openTerminal(i)
+        openTerminal(i, shell=True)
 def openTargetS(List):
     for i in List:
         openTarget(i)
@@ -15,7 +15,7 @@ def openSiteS(List):
 def openTerminalS_ifMatch(List, Match):
     for i in List:
         if i[0] == Match:
-            openTerminal(i[1])
+            openTerminal(i[1], shell=True)
 def openTargetS_ifMatch(List, Match):
     for i in List:
         if i[0] == Match:
@@ -27,7 +27,7 @@ def openSiteS_ifMatch(List, Match):
 
 def openTerminalS_skipMatch(List):
     for i in List:
-        openTerminal(i[1])
+        openTerminal(i[1], shell=True)
 def openTargetS_skipMatch(List):
     for i in List:
         openTarget(i[1])
